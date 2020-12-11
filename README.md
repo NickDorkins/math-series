@@ -12,10 +12,14 @@ Calling this function with no optional parameters will produce numbers from the 
 
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+I used a recursive function to use values to create a call stack that then adds the values together as they are called.
+
+The final value will represent the value at the iteration of both the fibonacci sequence and the lucas numbers.
+
+Finally I created a function that sums the called values in both the fibonacci sequence and lucas numbers.
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![Math-Series](./assets/math-series.png)
 
 
 [Pull Request 1](https://github.com/NickDorkins/math-series/pull/1)
